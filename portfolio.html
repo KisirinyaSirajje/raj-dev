@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio | Raj Dev</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Raj<span>Dev</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Showcasing our best work and successful projects</p>
+        </div>
+    </section>
+
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-gallery">
+        <div class="container">
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-1.jpg" alt="E-commerce Website">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Kampala Fashions</h3>
+                                <p>E-commerce Website</p>
+                                <a href="#portfolio-modal-1" class="btn btn-small portfolio-modal-trigger">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-2.jpg" alt="Mobile Banking App">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>UgPay</h3>
+                                <p>Mobile Banking App</p>
+                                <a href="#portfolio-modal-2" class="btn btn-small portfolio-modal-trigger">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-3.jpg" alt="Corporate Website">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Makerere Investments</h3>
+                                <p>Corporate Website</p>
+                                <a href="#portfolio-modal-3" class="btn btn-small portfolio-modal-trigger">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-4.jpg" alt="UI/UX Design Project">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>TravelUg App</h3>
+                                <p>UI/UX Design</p>
+                                <a href="#portfolio-modal-4" class="btn btn-small portfolio-modal-trigger">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-5.jpg" alt="Online Store">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Kikoni Electronics</h3>
+                                <p>E-commerce Platform</p>
+                                <a href="#portfolio-modal-5" class="btn btn-small portfolio-modal-trigger">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-6.jpg" alt="Restaurant Website">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Taste of Uganda</h3>
+                                <p>Restaurant Website</p>
+                                <a href="#portfolio-modal-6" class="btn btn-small portfolio-modal-trigger">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-7.jpg" alt="Fitness App">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>FitLife</h3>
+                                <p>Fitness Mobile App</p>
+                                <a href="#portfolio-modal-7" class="btn btn-small portfolio-modal-trigger">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-8.jpg" alt="Dashboard Design">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>AdminControl</h3>
+                                <p>Dashboard UI Design</p>
+                                <a href="#portfolio-modal-8" class="btn btn-small portfolio-modal-trigger">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-9.jpg" alt="Marketplace Website">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>UgMarket</h3>
+                                <p>Online Marketplace</p>
+                                <a href="#portfolio-modal-9" class="btn btn-small portfolio-modal-trigger">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modal 1 -->
+    <div id="portfolio-modal-1" class="portfolio-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Kampala Fashions</h2>
+                <div class="project-details">
+                    <div class="project-images">
+                        <img src="images/portfolio-1-large.jpg" alt="Kampala Fashions Website">
+                        <div class="project-thumbnails">
+                            <img src="images/portfolio-1-thumb1.jpg" alt="Thumbnail 1">
+                            <img src="images/portfolio-1-thumb2.jpg" alt="Thumbnail 2">
+                            <img src="images/portfolio-1-thumb3.jpg" alt="Thumbnail 3">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="info-item">
+                            <h4>Client:</h4>
+                            <p>Kampala Fashions Ltd.</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Category:</h4>
+                            <p>E-commerce Website</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Date:</h4>
+                            <p>June 2022</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Technologies:</h4>
+                            <p>HTML, CSS, JavaScript, PHP, MySQL, WooCommerce</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Website:</h4>
+                            <p><a href="#" target="_blank">www.kampalafashions.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h3>Project Overview</h3>
+                    <p>Kampala Fashions needed a modern e-commerce platform to showcase and sell their unique clothing and accessories. We designed and developed a fully responsive online store that highlights their products and streamlines the shopping experience.</p>
+                    
+                    <h3>The Challenge</h3>
+                    <p>The client needed a platform that would showcase their extensive product catalog while maintaining fast loading times and an intuitive shopping experience. They also required a robust inventory management system and secure payment processing.</p>
+                    
+                    <h3>Our Solution</h3>
+                    <p>We created a custom e-commerce website with a clean, modern design that puts the focus on their products. The site features advanced filtering options, a wishlist function, and a streamlined checkout process. We integrated secure payment gateways and implemented a comprehensive inventory management system.</p>
+                    
+                    <h3>Results</h3>
+                    <p>Since launching the new website, Kampala Fashions has seen a 45% increase in online sales and a 30% reduction in cart abandonment. The improved user experience has led to longer site visits and higher conversion rates.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additional portfolio modals would follow the same structure -->
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Have a Project in Mind?</h2>
+                <p>Let's discuss how we can help bring your vision to life.</p>
+                <a href="contact.html" class="btn btn-primary">Start a Project</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Raj<span>Dev</span></h3>
+                    <p>Creating innovative digital solutions for businesses of all sizes. We help you establish a strong online presence.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile App Development</a></li>
+                        <li><a href="services.html">UI/UX Design</a></li>
+                        <li><a href="services.html">E-commerce Solutions</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Makerere Kikoni, Kampala, Uganda</p>
+                    <p><i class="fas fa-phone"></i> +256 700 000000</p>
+                    <p><i class="fas fa-envelope"></i> info@rajdev.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Raj Dev. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
